@@ -142,8 +142,31 @@ let shiftMethod = rivers.shift()
 
 // 14. unshift()
 let namez = ['vinay', 'paru']
-namez.unshift('rudra')
+let newValue  = namez.unshift('rudra')
+// console.log(newValue)
+// ans- 3
 // console.log(namez)
 // [ 'rudra', 'vinay', 'paru' ]
 // The unshift() method adds new elements to the beginning of an array.
 // The unshift() method overwrites the original array.
+// returns  the new length of the array
+
+// 15. reverse()
+let values = [1, 2, 3, 4, 5]
+values.reverse()
+// console.log(values)
+// [ 5, 4, 3, 2, 1 ]
+// The reverse() method reverses the order of the elements in an array.
+// The reverse() method overwrites the original array.
+
+// 16. filter()
+let age = [22, 32, 43, 54]
+let ageFilter = (n) => {
+    return n <= 50
+}
+let ages = age.filter(ageFilter)
+// console.log(ages)
+// [ 22, 32, 43 ]
+// The filter() method creates a new array filled with elements that pass a test provided by a function.
+// The filter() method does not execute the function for empty elements.
+// The filter() method does not change the original array.
