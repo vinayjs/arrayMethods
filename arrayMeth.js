@@ -35,3 +35,31 @@ let list = ['arun', 'subu', 'kannan', 'kichu']
 // ans- [ 'subu', 'kannan' ]
 // console.log(list)
 // ans-[ 'arun', 'vinay', 'adarsh', 'kichu' ]
+// The splice() method adds and/or removes array elements.
+// The splice() method overwrites the original array.
+// syntax - array.splice(index, howmany, item1, ....., itemX)
+
+// 5. slice()
+let fruits = ['apple', 'orange', 'grapes', 'banana']
+let slicedFruits = fruits.slice(1, 3)
+// console.log(slicedFruits)
+// ans- [ 'orange', 'grapes' ]
+// console.log(fruits)
+// The slice() method returns selected elements in an array, as a new array.
+// The slice() method selects from a given start, up to a (not inclusive) given end.
+// The slice() method does not change the original array.
+
+// 6. flat()
+let array = ['messi', 'dybala', 'mbappe', ['vinay', 'adarsh']]
+let flatArray = array.flat()
+// console.log(flatArray)
+// [ 'messi', 'dybala', 'mbappe', 'vinay', 'adarsh' ]
+let array2 = ['messi', 'dybala', 'mbappe', ['vinay', 'adarsh'], ['paru', 'achu']]
+let flatArray2 = array2.flat(2)
+// console.log(flatArray2)
+// ans- [
+//     'messi',  'dybala',
+//     'mbappe', 'vinay',
+//     'adarsh', 'paru',
+//     'achu'
+//   ]
