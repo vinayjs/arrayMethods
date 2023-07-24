@@ -106,3 +106,25 @@ let num = [2, 4, 6, 8, 10]
 // map() creates a new array from calling a function for every array element.
 // map() does not execute the function for empty elements.
 // map() does not change the original array.
+
+// 11. pop()
+let brands = ['nike', 'addidas', 'puma']
+let pumaPop = brands.pop()
+// console.log(pumaPop)
+// ans - puma
+// console.log(brands)
+// ans- ['nike', 'addidas']
+// The pop() method removes (pops) the last element of an array.
+// The pop() method changes the original array.
+// The pop() method returns the removed element.
+
+// 12.push()
+let fruitz = ['kiwi', 'apple', 'banana']
+let pushFruitz = fruitz.push('grapes')
+// console.log(fruitz)
+// ans- [ 'kiwi', 'apple', 'banana', 'grapes' ]
+// console.log(pushFruitz)
+// ans- 4
+// The push() method adds new items to the end of an array.
+// The push() method changes the length of the array.
+// The push() method returns the new length.
