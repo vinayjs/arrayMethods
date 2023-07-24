@@ -128,3 +128,22 @@ let pushFruitz = fruitz.push('grapes')
 // The push() method adds new items to the end of an array.
 // The push() method changes the length of the array.
 // The push() method returns the new length.
+
+// 13.shift()
+let rivers = ['ganga', 'yamuna', 'kaveri']
+let shiftMethod = rivers.shift()
+// console.log(shiftMethod)
+// ans- ganga
+// console.log(rivers)
+// ans- [ 'yamuna', 'kaveri' ]
+// The shift() method removes the first item of an array.
+// The shift() method changes the original array.
+// The shift() method returns the shifted element.
+
+// 14. unshift()
+let namez = ['vinay', 'paru']
+namez.unshift('rudra')
+// console.log(namez)
+// [ 'rudra', 'vinay', 'paru' ]
+// The unshift() method adds new elements to the beginning of an array.
+// The unshift() method overwrites the original array.
