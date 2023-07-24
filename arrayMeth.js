@@ -63,3 +63,16 @@ let flatArray2 = array2.flat(2)
 //     'adarsh', 'paru',
 //     'achu'
 //   ]
+
+// 7. indexOf()
+let colours = ['blue', 'green', 'red', 'yellow']
+let indexOfRed = colours.indexOf('red');
+// console.log(indexOfRed);
+// ans- 2
+
+// 8. lastIndexOf()
+let colors = ['blue', 'red', 'yellow', 'green', 'blue']
+let lastindex = colors.lastIndexOf('blue');
+// console.log(lastindex);
+// ans-4
+
