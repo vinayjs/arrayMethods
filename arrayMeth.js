@@ -76,3 +76,33 @@ let lastindex = colors.lastIndexOf('blue');
 // console.log(lastindex);
 // ans-4
 
+// 9. forEach()
+let numbers = [1, 2, 3, 4, 5, 6]
+// numbers.forEach((n) => {console.log(n * 2)})
+// ans- 
+// 2
+// 4
+// 6
+// 8
+// 10
+// 12
+let count = 0;
+numbers.forEach((n) => count++)
+// console.log(count);
+// ans-6
+// The forEach() method calls a function for each element in an array.
+// The forEach() method is not executed for empty elements.
+
+
+// 10. map()
+let num = [2, 4, 6, 8, 10]
+// let myFunc = (n) => {
+//     return n * 2
+// }
+// let numDoubled = num.map(myFunc)
+
+// let numDoubled = num.map((n) => n * 2)
+// console.log(numDoubled)
+// map() creates a new array from calling a function for every array element.
+// map() does not execute the function for empty elements.
+// map() does not change the original array.
