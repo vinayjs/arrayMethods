@@ -183,8 +183,29 @@ let atIndex = bikes.at(index)
 // 18.copyWithin()
 let languages = ['js', 'python', 'ruby', 'java', 'c', 'c+']
 let copyLang = languages.copyWithin(0, 1)
-console.log(copyLang)
+// console.log(copyLang)
 // ans- [ 'python', 'ruby', 'java', 'c', 'c+', 'c+' ]
 // The copyWithin() method copies array elements to another position in the array.
 // The copyWithin() method overwrites the existing values.
 // The copyWithin() method does not add items to the array.
+
+// 19.find()
+let digits = [22, 25, 26, 33, 35, 40]
+let above30 = (digit) => {
+    return digit > 30
+};
+let result = digits.find(above30);
+// console.log(result);
+// The find() method returns the value of the first element that passes a test.
+// The find() method executes a function for each array element.
+// The find() method returns undefined if no elements are found.
+// The find() method does not execute the function for empty elements.
+// The find() method does not change the original array.
+
+// 20.includes()
+let carz = ['bmw', 'audi', 'ferrari', 'bently']
+let findCarz = cars.includes('audi')
+// console.log(findCarz)
+// The includes() method returns true if an array contains a specified value.
+// The includes() method returns false if the value is not found.
+// The includes() method is case sensitive.
