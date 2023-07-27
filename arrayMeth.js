@@ -170,3 +170,21 @@ let ages = age.filter(ageFilter)
 // The filter() method creates a new array filled with elements that pass a test provided by a function.
 // The filter() method does not execute the function for empty elements.
 // The filter() method does not change the original array.
+
+// 17.at()
+let bikes = ['pulsar', 'avenger', 'ktm', 'R15']
+let index = 2
+let atIndex = bikes.at(index)
+// console.log(atIndex);
+// let atAlternate = bikes[1];
+// console.log(atAlternate);
+//The at() method returns an indexed element from an array.
+
+// 18.copyWithin()
+let languages = ['js', 'python', 'ruby', 'java', 'c', 'c+']
+let copyLang = languages.copyWithin(0, 1)
+console.log(copyLang)
+// ans- [ 'python', 'ruby', 'java', 'c', 'c+', 'c+' ]
+// The copyWithin() method copies array elements to another position in the array.
+// The copyWithin() method overwrites the existing values.
+// The copyWithin() method does not add items to the array.
