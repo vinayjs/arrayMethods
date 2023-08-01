@@ -258,3 +258,9 @@ let myFunction = (a) => {
 // ans- true
 //The some() method checks if some array values pass a test.
 
+// 27. spread operator
+let a = ['jan', 'feb', 'march']
+let b = ['april', 'may', 'june']
+let add = [...a, ...b]
+// console.log(add);
+// ans- [ 'jan', 'feb', 'march', 'april', 'may', 'june' ]
