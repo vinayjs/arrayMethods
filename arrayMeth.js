@@ -223,3 +223,19 @@ let array1 = [1, 2, 3, 4]
 let number = 23
 // console.log(Array.isArray(number))
 // ans- false
+
+// 23. sort()
+let xyz = ["a", "c", "b", "e", "f"]
+// console.log(xyz.sort())
+// ans- [ 'a', 'b', 'c', 'e', 'f' ]
+let numberSort = [3, 6, 1, 2, 5, 4]
+// console.log(numberSort.sort())
+// ans - [ 1, 2, 3, 4, 5, 6 ]
+
+// 24 . reverse()
+let getReversed = [ 1, 2, 3, 4, 5, 6 ]
+// console.log(getReversed.reverse())
+// ans - [ 6, 5, 4, 3, 2, 1 ]
+let getReversed2 = [ 'a', 'b', 'c', 'd', 'e', 'f' ]
+// console.log(getReversed2.reverse())
+// ans- [ 'f', 'e', 'd', 'c', 'b', 'a' ]
