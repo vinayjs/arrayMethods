@@ -209,3 +209,17 @@ let findCarz = cars.includes('audi')
 // The includes() method returns true if an array contains a specified value.
 // The includes() method returns false if the value is not found.
 // The includes() method is case sensitive.
+
+// 21.length()
+let numberz = [23, 22, 25, 26, 28, 29]
+let numLength = numberz.length
+// console.log(numLength)
+//The length property sets or returns the number of elements in an array.
+
+// 22.Array.isArray()
+let array1 = [1, 2, 3, 4]
+// console.log(Array.isArray(array1))
+// ans- true
+let number = 23
+// console.log(Array.isArray(number))
+// ans- false
