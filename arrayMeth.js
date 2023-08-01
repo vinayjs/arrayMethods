@@ -239,3 +239,22 @@ let getReversed = [ 1, 2, 3, 4, 5, 6 ]
 let getReversed2 = [ 'a', 'b', 'c', 'd', 'e', 'f' ]
 // console.log(getReversed2.reverse())
 // ans- [ 'f', 'e', 'd', 'c', 'b', 'a' ]
+
+// 25. every()
+let values1 = [12, 22, 32, 23, 33, 43]
+let myFunc = (a) => {
+    return a > 15;
+}
+// console.log(values1.every(myFunc))
+// ans- false
+// The every() method checks if all array values pass a test.
+
+// 26. some()
+let values2 = [23, 45, 21, 56, 34, 66, 77]
+let myFunction = (a) => {
+    return a > 60 ;
+}
+// console.log(values2.some(myFunction))
+// ans- true
+//The some() method checks if some array values pass a test.
+
